@@ -93,6 +93,11 @@ input, select, textarea {
 	align-items: center;
 }
 
+.inner {
+	display: flex !important;
+	flex-direction: column !important;
+}
+
 .social-links {
 	display: flex;
 	width: 50%;
@@ -101,7 +106,6 @@ input, select, textarea {
 	margin-top: 30px;
 	list-style: none;
 	width: 300px !important;
-	margin-left: 35%;
 }
 
 .social-links a {
